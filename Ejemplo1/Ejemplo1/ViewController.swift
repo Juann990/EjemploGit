@@ -8,12 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //MARK: -Properties
+    
+    //MARK: -Otra LifeCycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        print("Hello World")
+            }
+//MARK: - Funtions
+    func example(){
+        print("login")
     }
-
 
 }
 
